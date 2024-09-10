@@ -4,15 +4,15 @@
   </div>
   <main>
     <div class="container-bar p-3 m-3 bg-success"> <!--bg-success-->
-      <h1 class="text-center">GET ALL RECORDS</h1>
-      <button @click="getRecord()" class="btn btn-warning d-inline-block me-2 m-2">Get</button>
-      <table class="table table-striped mt-5">
+      <h1 class="text-center text-white">GET ALL RECORDS</h1>
+      <button @click="getRecord()" class="btn btn-info d-inline-block me-2 m-2">Get Records</button>
+      <table class="table table-borderless mt-5">
         <thead>
             <th class="bg-dark text-white">Number </th>
             <th class="bg-dark text-white">First Name </th>
             <th class="bg-dark text-white">Last Name  </th>
             <th class="bg-dark text-white">Age </th>
-            <th class="bg-dark text-white">Edit</th>
+            <th class="bg-dark text-white">Edit Age</th>
             <th class="bg-dark text-white">Delete</th>
         </thead>
         <tbody>
